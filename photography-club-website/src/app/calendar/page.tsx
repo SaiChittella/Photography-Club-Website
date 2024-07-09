@@ -5,8 +5,8 @@ import EventCard from "@/components/ui/EventCard";
 
 export default async function Calendar() {
 	const client = createClient({
-		space: "zocut71aknyu",
-		accessToken: "2qq7_bi7cUxPd6mSyc5mza1wxfp9l7nGijagPWskrGE",
+		space: process.env.NEXT_PUBLIC_CONTENTFUL_SPACE || "",
+		accessToken: process.env.NEXT_PUBLIC_CONTENTFUL_ACCESS_TOKEN || "",
 	});
 
 	interface EventFields extends EntrySkeletonType {

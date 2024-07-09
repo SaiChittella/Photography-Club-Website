@@ -42,9 +42,10 @@ export default function Home() {
 			</div>
 			<div id="faq" className="relative">
 				<Faq></Faq>
-				<p className="absolute left-0 bottom-0 rounded-tr-lg bg-[#101010] py-2 px-4 text-sm shadow-lg shadow-black">
+				<p className="left-0 bottom-0 rounded-tr-lg bg-[#101010] py-2 px-4 text-sm shadow-lg shadow-black fixed">
 					Created by the Alpine Dev Team. Contact us at
-					<br /><b>alpinedevservice@gmail.com</b> for your own website.
+					<br />
+					<b>alpinedevservice@gmail.com</b> for your own website.
 				</p>
 			</div>
 		</main>
